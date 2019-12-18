@@ -12,8 +12,8 @@ public class ComparablePairDriver {
 		System.out.println(x.compareTo(y));
 		
 		
-		String s1 = "un";
-		String s2 = "one";
+		String s1 = "BA";
+		String s2 = "DX";
 		System.out.println(s2.compareTo(s1));
 		
 		ArrayList<ComparablePair<Integer, String>> alcp = new ArrayList<ComparablePair<Integer, String>>();

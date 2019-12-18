@@ -1,5 +1,6 @@
 package generics;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class WildCard {
@@ -16,5 +17,16 @@ public class WildCard {
 		for (int i = 0; i < src.size(); i++) {
 			dest.set(i, src.get(i));
 		}
+	}
+	
+	public static void main(String[] args) {
+		List<Integer> list1 = new ArrayList<Integer>();
+		list1.add(10);
+		list1.add(20);
+		
+		List<Integer> dest = new ArrayList<Integer>();
+		
+		copy(list1, dest);
+		
 	}
 }
