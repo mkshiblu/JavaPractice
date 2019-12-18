@@ -1,6 +1,6 @@
-package generics.pair;
+package generics;
 
-public class Pair<T extends Number> {
+public class Arithmatic<T extends Number> {
 
 	public void print(T num) {
 		System.out.println(num);
@@ -15,7 +15,7 @@ public class Pair<T extends Number> {
 	}
 
 	public static void main(String[] args) {
-		Pair<Integer> pair = new Pair<>();
+		Arithmatic<Integer> pair = new Arithmatic<>();
 		pair.print(10);
 		pair.add(10, 20);
 	}
